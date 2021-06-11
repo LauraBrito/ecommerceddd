@@ -1,12 +1,13 @@
 ﻿using Entities.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Infra.Configurations
 {
-    public class ContextBase : DbContext
+    public class ContextBase : IdentityDbContext<ApplicationUser>
     {
         public ContextBase(DbContextOptions<ContextBase> options) : base(options) 
         { 
@@ -14,6 +15,7 @@ namespace Infra.Configurations
 
         //Pro Entity saber que é pra usar no banco
         public DbSet<Product> Products { get; set; }
+        public DbSet<UserOrder> UserOrders { get; set; }
 
         //Configuração pra poder usar a Connection String
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

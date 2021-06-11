@@ -9,19 +9,44 @@ namespace Entities.Entities
     [Table("Product")]
     public class Product : Notifies
     {
-        [Column("PRD_ID")]
+        [Column("Id")]
         [Display(Name = "Código")]
         public Guid Id { get; set; }
 
-        [Column("PRD_NAME")]
+        [Column("Name")]
         [Display(Name = "Nome")]
+        [MaxLength(150)]
         public string Name { get; set; }
 
-        [Column("PRD_VALUE")]
+        [MaxLength(255)]
+        [Column("Description")]
+        [Display(Name = "Descrição")]
+        public string Description { get; set; }
+
+        [Column("Note")]
+        [Display(Name = "Observação")]
+        [MaxLength(2000)]
+        public string Note { get; set; }
+
+        [Column("Value")]
         [Display(Name = "Valor")]
         public decimal Value { get; set; }
 
-        [Column("PRD_STATUS")]
+        [ForeignKey("ApplicationUser")]
+        [Display(Name = "Usuário")]
+        [Column(Order = 1)]
+        public string UserId { get; set; }
+        public virtual ApplicationUser ApplicationUser { get; set; }
+
+        public DateTime DateAdded { get; set; } = DateTime.Now;
+
+        public DateTime DateUpdated { get; set; }
+
+        [Column("Iventary")]
+        [Display(Name = "Estoque")]
+        public int Inventary { get; set; }
+
+        [Column("Status")]
         [Display(Name = "Status")]
         public bool Status { get; set; }
     }
