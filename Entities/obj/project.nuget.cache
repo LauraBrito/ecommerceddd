@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QmtuhUM14XKQny6NEG1EUn2apitjJ5YFUtLW3Ds13r3td0C0qUHRV6FcsanfsScyVwvS0GH+4vRnzwVvaEKgBQ==",
+  "dgSpecHash": "GSglk6g/wF7LdxCVwenGJTHUsBKRtIQRoID8BsR1KymA1Pb0hEI5KZF+udhCAJXRckkKxpHUfCqIEit8RHIcZQ==",
   "success": true,
-  "projectFilePath": "D:\\Estudos\\DDD\\EcommerceDDD\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\laura\\Documents\\Estudos - ASP.NET\\ecommerceddd\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
