@@ -1,30 +1,70 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Domain >= 1.0.0",
+      "Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Laurinha\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\laura\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Estudos\\DDD\\EcommerceDDD\\ApplicationApp\\ApplicationApp.csproj",
+      "projectUniqueName": "C:\\Users\\laura\\Documents\\Estudos - ASP.NET\\ecommerceddd\\ApplicationApp\\ApplicationApp.csproj",
       "projectName": "ApplicationApp",
-      "projectPath": "D:\\Estudos\\DDD\\EcommerceDDD\\ApplicationApp\\ApplicationApp.csproj",
-      "packagesPath": "C:\\Users\\Laurinha\\.nuget\\packages\\",
-      "outputPath": "D:\\Estudos\\DDD\\EcommerceDDD\\ApplicationApp\\obj\\",
+      "projectPath": "C:\\Users\\laura\\Documents\\Estudos - ASP.NET\\ecommerceddd\\ApplicationApp\\ApplicationApp.csproj",
+      "packagesPath": "C:\\Users\\laura\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\laura\\Documents\\Estudos - ASP.NET\\ecommerceddd\\ApplicationApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Laurinha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\laura\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -38,7 +78,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\laura\\Documents\\Estudos - ASP.NET\\ecommerceddd\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\laura\\Documents\\Estudos - ASP.NET\\ecommerceddd\\Domain\\Domain.csproj"
+            },
+            "C:\\Users\\laura\\Documents\\Estudos - ASP.NET\\ecommerceddd\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\laura\\Documents\\Estudos - ASP.NET\\ecommerceddd\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
