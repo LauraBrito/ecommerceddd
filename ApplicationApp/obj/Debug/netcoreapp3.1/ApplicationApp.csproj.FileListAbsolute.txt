@@ -1,0 +1,8 @@
+D:\Estudos\DDD\EcommerceDDD\ApplicationApp\bin\Debug\netcoreapp3.1\ApplicationApp.deps.json
+D:\Estudos\DDD\EcommerceDDD\ApplicationApp\bin\Debug\netcoreapp3.1\ApplicationApp.dll
+D:\Estudos\DDD\EcommerceDDD\ApplicationApp\bin\Debug\netcoreapp3.1\ApplicationApp.pdb
+D:\Estudos\DDD\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.AssemblyInfoInputs.cache
+D:\Estudos\DDD\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.AssemblyInfo.cs
+D:\Estudos\DDD\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.csproj.CoreCompileInputs.cache
+D:\Estudos\DDD\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.dll
+D:\Estudos\DDD\EcommerceDDD\ApplicationApp\obj\Debug\netcoreapp3.1\ApplicationApp.pdb

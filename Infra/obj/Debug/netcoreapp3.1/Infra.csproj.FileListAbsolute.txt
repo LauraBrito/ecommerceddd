@@ -1,0 +1,9 @@
+D:\Estudos\DDD\EcommerceDDD\Infra\bin\Debug\netcoreapp3.1\Infra.deps.json
+D:\Estudos\DDD\EcommerceDDD\Infra\bin\Debug\netcoreapp3.1\Infra.dll
+D:\Estudos\DDD\EcommerceDDD\Infra\bin\Debug\netcoreapp3.1\Infra.pdb
+D:\Estudos\DDD\EcommerceDDD\Infra\obj\Debug\netcoreapp3.1\Infra.csproj.AssemblyReference.cache
+D:\Estudos\DDD\EcommerceDDD\Infra\obj\Debug\netcoreapp3.1\Infra.AssemblyInfoInputs.cache
+D:\Estudos\DDD\EcommerceDDD\Infra\obj\Debug\netcoreapp3.1\Infra.AssemblyInfo.cs
+D:\Estudos\DDD\EcommerceDDD\Infra\obj\Debug\netcoreapp3.1\Infra.csproj.CoreCompileInputs.cache
+D:\Estudos\DDD\EcommerceDDD\Infra\obj\Debug\netcoreapp3.1\Infra.dll
+D:\Estudos\DDD\EcommerceDDD\Infra\obj\Debug\netcoreapp3.1\Infra.pdb

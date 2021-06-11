@@ -1,0 +1,9 @@
+D:\Estudos\DDD\EcommerceDDD\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+D:\Estudos\DDD\EcommerceDDD\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Estudos\DDD\EcommerceDDD\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Estudos\DDD\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+D:\Estudos\DDD\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+D:\Estudos\DDD\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+D:\Estudos\DDD\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+D:\Estudos\DDD\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+D:\Estudos\DDD\EcommerceDDD\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
